@@ -1,0 +1,13 @@
+{
+  "keys": [
+    {
+      "kty": "RSA",
+      "alg": "RS256",
+      "use": "sig",
+      "kid": "test-key-id",
+      "n": "your-modulus-in-base64url",
+      "e": "AQAB"
+    }
+  ]
+}
+
