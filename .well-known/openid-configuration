@@ -1,0 +1,4 @@
+{
+  "issuer": "https://roshnirajan1106.github.io/hosting-wif-jkws",
+  "jwks_uri": "https://roshnirajan1106.github.io/hosting-wif-jkws/jwks.json"
+}
