@@ -1,13 +1,16 @@
 {
   "keys": [
     {
-      "kty": "RSA",
-      "alg": "RS256",
-      "use": "sig",
-      "kid": "test-key-id",
-      "n": "your-modulus-in-base64url",
-      "e": "AQAB"
-    }
+  "kty": "RSA",
+  "use": "sig",
+  "key_ops": [
+    "sign"
+  ],
+  "alg": "RS256",
+  "kid": "my-key-id",
+  "n": "6x7wwYzDf95YlaX1JhxNB7O4GyXnqnk99HDWBG-h29-TioEWqpkEu84xChTg0TaTgGuTq-p5NV8x9lUu5j_-SfugSluFBtnua8nNM-ATJLnA9wCzc6FWNJsg_EdLtxqnpH0h9XdEcgYagUhXIFFMGNtDfMtOEOfi2bBW3vBsG6VFnpb2cRNbSKNZz1mYhWH5g8BkJfheyoRgmiMTgnb45GWjkx1vKjKZB69khN9FaVeD_NJJ0NjlyQfnYz7KJ8i-CXvpVTrkZxJKcx6bnX_aWzVq1MD32jk-YrU4xHG12YZRoF3PcT-k3fSfIMNP3TTxpxhF6Au7TqZ5PKh4Ny3KTw",
+  "e": "AQAB"
+}
   ]
 }
 
